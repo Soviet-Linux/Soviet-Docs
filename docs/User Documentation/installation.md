@@ -1,7 +1,7 @@
 # Installation Insturctions
 
 **[Soviet-Linux](https://github.com/Soviet-Linux) is not suitable for daily use but you can try it out by using the following instructions**  \
-You can try to install [Soviet-Linux](https://github.com/Soviet-Linux) using this three diffrent ways
+You can try to try it out [Soviet-Linux](https://github.com/Soviet-Linux) using this three diffrent ways
 
 ## 1. Using Docker
 
