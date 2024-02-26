@@ -1,4 +1,4 @@
-# Standars
+# Standards
 
 ## Sites to get details about how to build a package
 
