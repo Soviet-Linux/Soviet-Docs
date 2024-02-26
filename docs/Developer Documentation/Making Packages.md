@@ -16,7 +16,7 @@ This is recommended because its more easier to make them this way  \
 [mkspm](https://github.com/Soviet-Linux/spm-utils/blob/main/mkspm) is a python file that is a part of [spm-utils](https://github.com/Soviet-Linux/spm-utils/) and can be obatianed by downloading [this](https://raw.githubusercontent.com/Soviet-Linux/spm-utils/main/mkspm)
 
 1. Download [mkspm](https://github.com/Soviet-Linux/spm-utils/blob/main/mkspm)
-2. Run ```mkspm```
+2. Generate a template ecmp
 When you run ```mkspm``` you should also put the package name followed by a url to where you download the package from so the full command should look like this:
 
 ``mkspm nameofthepackage urltowhereyoudownloadthepackage``
