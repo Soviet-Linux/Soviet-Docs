@@ -1,28 +1,20 @@
-# Installation Insturctions
+# Installation Instructions
 
-**[Soviet-Linux](https://github.com/Soviet-Linux) is not suitable for daily use but you can try it out by using the following instructions**  \
-You can try to try it out [Soviet-Linux](https://github.com/Soviet-Linux) using this three diffrent ways
+**[Soviet-Linux](https://github.com/Soviet-Linux) is not suitable for daily use. However, you can test it by following the instructions below.**  
+You can try out [Soviet-Linux](https://github.com/Soviet-Linux) in three different ways.
 
 ## 1. Using Docker
 
-### Prequisites
+### Prerequisites
 
-1. Podman or Docker (Podman Recommended)
+1. Podman or Docker (Podman is recommended)
 
 ### Running the container
 
 >Note: If you want this container to preserve changes you've made, remove `--rm`.
 
-For Docker:
-
 ```bash
 docker run -it --rm ghcr.io/soviet-linux/soviet:latest /bin/bash
-```
-
-For Podman:
-
-```bash
-podman run -it --rm ghcr.io/soviet-linux/soviet:latest /bin/bash
 ```
 
 ## 2. Using chroot
