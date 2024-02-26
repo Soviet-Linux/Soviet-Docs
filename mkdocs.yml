@@ -37,8 +37,8 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-  logo: https://github.com/JohnVictoryz/Soviet-Docs/blob/main/Soviet-Logo.png?raw=true 
-  favicon: https://github.com/JohnVictoryz/Soviet-Docs/blob/main/Soviet-Logo.png?raw=true
+  logo: https://github.com/Soviet-Linux/Soviet-Docs/blob/main/Soviet-Logo.png?raw=true 
+  favicon: https://github.com/Soviet-Linux/Soviet-Docs/blob/main/Soviet-Logo.png?raw=true
   name: material
   icon:
     repo: fontawesome/brands/github
@@ -50,6 +50,6 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/P95xPM9KZY
       name: Soviet-Linux Discord Server
-copyright: This is under the GPL-3.0 license.
+copyright: This is licensed under the GPL-3.0 license.
 repo_url: https://github.com/Soviet-Linux/
 repo_name: Soviet Linux
