@@ -41,7 +41,7 @@ After getting [spm-test](https://github.com/Soviet-Linux/spm-utils/blob/main/spm
 ### Prequisites
 
 - [Github Account](https://github.com/)
-- [Git](https://git-scm.com/) or [Github Desktop](https://desktop.github.com/) or any other git client
+- [Git](https://git-scm.com/) or any other git client
 - Basic knowledge of git
 
 ### Contributing
