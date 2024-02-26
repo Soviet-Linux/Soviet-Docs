@@ -1,12 +1,12 @@
 # ECMP Files
 
-## What are .ecmp files
+## What are .ecmp files?
 
-.ecmp files are file used to create packages that are installed using [CCCP](http://github.com/Soviet-Linux/CCCP) and [libspm](https://github.com/Soviet-Linux/libspm)
+.ecmp files are used to create packages that are installed using [CCCP](http://github.com/Soviet-Linux/CCCP) and [libspm](https://github.com/Soviet-Linux/libspm).
 
 ## Structure
 
-.ecmp files use a [toml](https://toml.io) like syntaxt to identify themselfs.
+.ecmp files use a [toml](https://toml.io) like syntax to identify themselves.
 
 Example of an .ecmp file:
 
@@ -103,4 +103,5 @@ This Variable contains the package URL (The URL is get by the [`[info]` Section]
 
 5. $BUILD_ROOT Variable
 This Variable contains a fake installation directory given by [CCCP](https://github.com/Soviet-Linux/CCCP) and [libspm](https://github.com/Soviet-Linux/libspm)
+
 

@@ -1,9 +1,9 @@
-# Developer Docs for Soviet-Linux
+# Developer Documentation for Soviet-Linux
 
-This is the developer documentation for [Soviet-Linux](https://github.com/Soviet-Linux)
+This is the developer documentation for [Soviet-Linux](https://github.com/Soviet-Linux).
 
-## Page Index for developer documentation
+## Page Index for Developer Documentation
 
-- [Making Packages](Making%20Packages.md)
+- [Creating Packages](Creating%20Packages.md)
 - [Standard Conventions](Standard%20Conventions.md)
-- [ecmp files](ecmp.md)
+- [ECMP Files](ECMP.md)

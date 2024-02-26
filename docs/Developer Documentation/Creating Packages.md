@@ -4,7 +4,7 @@ Creating packages for [OUR Repository](https://github.com/Soviet-Linux/OUR) is h
 
 ## Details about Packages
 
-Each package is created using the [.ecmp file format](ecmp.md).
+Each package is created using the [.ecmp file format](ECMP.md).
 
 ## Creating a Package
 
@@ -24,11 +24,11 @@ For example:
 `mkspm bash https://ftp.gnu.org/gnu/bash/bash-5.2.9.tar.gz`
 
 3. Make Some Changes
-When you run ```mkspm``` it creates a template .ecmp file, meaning that the file needs to be edited to be a valid file. For more information, see the [.ecmp file format documentation](ecmp.md).
+When you run ```mkspm``` it creates a template .ecmp file, meaning that the file needs to be edited to be a valid file. For more information, see the [.ecmp file format documentation](ECMP.md).
 
 ### Making it from scratch 
 
-To make an .ecmp file from scratch, see the [.ecmp file format documentation](ecmp.md). This should help you build a package file.
+To make an .ecmp file from scratch, see the [.ecmp file format documentation](ECMP.md). This should help you build a package file.
 ## Testing a Package File
 
 This is an essential step when you want to make a package, to ensure that the package actually works properly. To do this, you need [spm-test](https://github.com/Soviet-Linux/spm-utils/blob/main/spm-test) from [spm-utils](https://github.com/Soviet-Linux/spm-utils/).

@@ -63,3 +63,4 @@ docker run -it --rm ghcr.io/soviet-linux/soviet:latest /bin/bash
 
 - Username: root
 - Password: sovietlinux
+
