@@ -21,6 +21,9 @@ When you run ```mkspm``` you should also put the package name followed by a url 
 
 ``mkspm nameofthepackage urltowhereyoudownloadthepackage``
 
+example: 
+`mkspm bash https://ftp.gnu.org/gnu/bash/bash-5.2.9.tar.gz`
+
 3. Make Some Changes
 When you run ```mkspm``` it creates an template .ecmp file meaning that the files needs to be edited so it can be a valid file you should see the [.ecmp file format documentation](ecmp.md)
 
