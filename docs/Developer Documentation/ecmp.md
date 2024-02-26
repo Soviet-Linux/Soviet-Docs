@@ -6,7 +6,7 @@
 
 ## Structure
 
-.ecmp files use a [toml](https://en.wikipedia.org/wiki/TOML) like syntaxt to identify themselfs.
+.ecmp files use a [toml](https://toml.io) like syntaxt to identify themselfs.
 
 Example of an .ecmp file:
 
