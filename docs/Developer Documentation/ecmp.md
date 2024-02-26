@@ -10,7 +10,7 @@
 
 Example of an .ecmp file:
 
-```
+```toml
 [info] 
 name = example
 version = 1.0.0
