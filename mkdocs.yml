@@ -1,0 +1,55 @@
+site_name: Soviet-Docs
+plugins:
+  - search
+markdown_extensions: 
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.escapeall:
+      hardbreak: True
+theme:
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+  language: en
+  features:
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+  logo: https://github.com/JohnVictoryz/Soviet-Docs/blob/main/Soviet-Logo.png?raw=true 
+  favicon: https://github.com/JohnVictoryz/Soviet-Docs/blob/main/Soviet-Logo.png?raw=true
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Soviet-Linux/
+      name: Soviet-Linux on GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/P95xPM9KZY
+      name: Soviet-Linux Discord Server
+copyright: This is under the GPL-3.0 license.
+repo_url: https://github.com/Soviet-Linux/
+repo_name: Soviet Linux
