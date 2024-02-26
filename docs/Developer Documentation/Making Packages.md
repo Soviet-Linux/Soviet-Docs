@@ -61,7 +61,7 @@ After getting [spm-test](https://github.com/Soviet-Linux/spm-utils/blob/main/spm
 > Note: You must Stage the all.db after rebuilding the database
 
     ```
-    git add file
+    git add <file>
     ```
 
     Or for every every file you changed:
