@@ -1,44 +1,42 @@
-# Making Packages for Soviet-Linux
+# Creating Packages for Soviet-Linux
 
-Making packages for [OUR Repository](https://github.com/Soviet-Linux/OUR) is highly apreciated look below to see details on how to make them
+Creating packages for [OUR Repository](https://github.com/Soviet-Linux/OUR) is highly appreciated. Below are the details on how to create them.
 
-## Details about packages
+## Details about Packages
 
-Every package is made using the [.ecmp file format](ecmp.md)
+Each package is created using the [.ecmp file format](ecmp.md).
 
-## Making a Package
+## Creating a Package
 
-You can create a package with two diffrent ways
+There are two different ways to create a package.
 
-### Using the mkspm program
+### Using the mkspm Program
 
-This is recommended because its more easier to make them this way  \
-[mkspm](https://github.com/Soviet-Linux/spm-utils/blob/main/mkspm) is a python file that is a part of [spm-utils](https://github.com/Soviet-Linux/spm-utils/) and can be obatianed by downloading [this](https://raw.githubusercontent.com/Soviet-Linux/spm-utils/main/mkspm)
+This method is recommended as it is easier. [mkspm](https://github.com/Soviet-Linux/spm-utils/blob/main/mkspm) is a Python file that is part of [spm-utils](https://github.com/Soviet-Linux/spm-utils/). It can be obtained by downloading [this](https://raw.githubusercontent.com/Soviet-Linux/spm-utils/main/mkspm).
 
-1. Download [mkspm](https://github.com/Soviet-Linux/spm-utils/blob/main/mkspm)
-2. Generate a template ecmp
-When you run ```mkspm``` you should also put the package name followed by a url to where you download the package from so the full command should look like this:
+1. Download [mkspm](https://github.com/Soviet-Linux/spm-utils/blob/main/mkspm).
+2. Generate a template ecmp.
+When you run `mkspm`, you should also provide the package name followed by a URL from where you can download the package. The full command should look like this:
 
 ``mkspm nameofthepackage urltowhereyoudownloadthepackage``
 
-example: 
+For example: 
 `mkspm bash https://ftp.gnu.org/gnu/bash/bash-5.2.9.tar.gz`
 
 3. Make Some Changes
-When you run ```mkspm``` it creates an template .ecmp file meaning that the files needs to be edited so it can be a valid file you should see the [.ecmp file format documentation](ecmp.md)
+When you run ```mkspm``` it creates a template .ecmp file, meaning that the file needs to be edited to be a valid file. For more information, see the [.ecmp file format documentation](ecmp.md).
 
 ### Making it from scratch 
 
-To make an .ecmp file from scratch you should see the [.ecmp file format documentation](ecmp.md)
-this should help you build a package file
+To make an .ecmp file from scratch, see the [.ecmp file format documentation](ecmp.md). This should help you build a package file.
+## Testing a Package File
 
-## Testing a package file
+This is an essential step when you want to make a package, to ensure that the package actually works properly. To do this, you need [spm-test](https://github.com/Soviet-Linux/spm-utils/blob/main/spm-test) from [spm-utils](https://github.com/Soviet-Linux/spm-utils/).
 
-This is an essentiall step when you want to make a package so you are sure that package actually works properly  \
-To do this you need [spm-test](https://github.com/Soviet-Linux/spm-utils/blob/main/spm-test) from [spm-utils](https://github.com/Soviet-Linux/spm-utils/)
-
-After getting [spm-test](https://github.com/Soviet-Linux/spm-utils/blob/main/spm-test) from [spm-utils](https://github.com/Soviet-Linux/spm-utils/) just run: ``spm-test packagefilename``
-
+You can test a package by running:
+```
+spm-test <package file>
+```
 ## Commiting and Contributing to OUR
 
 ### Prequisites
@@ -95,3 +93,5 @@ After getting [spm-test](https://github.com/Soviet-Linux/spm-utils/blob/main/spm
     ```
 
 7. Open PR(Pull Request)
+
+
