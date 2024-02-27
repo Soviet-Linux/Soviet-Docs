@@ -1,8 +1,8 @@
 # User Documentation
 
-This is the User Documentation for [Soviet-Linux](https://github.com/Soviet-Linux) this is used by people who just want to operate [Soviet-Linux](https://github.com/Soviet-Linux)
+This is the User Documentation for [Soviet-Linux](https://github.com/Soviet-Linux). It is intended for users who want to operate [Soviet-Linux](https://github.com/Soviet-Linux).
 
-## Page Index for user documentation
+## Page Index for User Documentation
 
 - [Installation](installation.md)
 - [CCCP](CCCP.md)
