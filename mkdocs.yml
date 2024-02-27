@@ -50,6 +50,12 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/P95xPM9KZY
       name: Soviet-Linux Discord Server
+<<<<<<< HEAD
 copyright: This is under the GPL-3.0 license.
 repo_url: https://github.com/Soviet-Linux/Soviet-Docs/
 repo_name: Soviet Docs
+=======
+copyright: This is licensed under the GPL-3.0 license.
+repo_url: https://github.com/Soviet-Linux/
+repo_name: Soviet Linux
+>>>>>>> main
