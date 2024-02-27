@@ -10,10 +10,6 @@ This is the home of the official Soviet-Linux Docs
 2. Clone your fork
 3. Install requirements.txt using pip
 4. Run `mkdocs serve`
-<<<<<<< HEAD
 5. Make your changes
-=======
-5. Make your changes 
->>>>>>> main
 6. Stage and commit
 7. Open PR
